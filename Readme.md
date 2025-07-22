@@ -1,7 +1,7 @@
 <!-- Project Logo -->
 <div align="center">
 
-  <!-- Logo with hover effect and link -->
+  <!-- Logo with link -->
   [![Project Logo](https://via.placeholder.com/150x150.png?text=RAG_with_ai_scrapper)]( https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
   
   # RAG_with_ai_scrapper
@@ -15,6 +15,7 @@
   [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white)]( https://streamlit.io/ )
   [![Selenium](https://img.shields.io/badge/Selenium-43B02A.svg?style=flat&logo=Selenium&logoColor=white)]( https://www.selenium.dev/ )
   [![Python](https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white)]( https://www.python.org/ )
+  [![Ollama](https://img.shields.io/badge/Ollama-green?style=flat&logo=Ollama&logoColor=white)]( https://ollama.com/ )
 
 </div>
 
@@ -41,14 +42,21 @@
 - [Streamlit]( https://streamlit.io/ ) – For the interactive UI
 - [Selenium](https://www.selenium.dev/ ) – For web scraping
 - [Python](https://www.python.org/ ) – Core programming language
-
+- [Ollama](https://ollama.com/ ) - For open souce LLM model intraction
 ---
 
-## 📦 Prerequisites
+## 📦  Pre-requisites
 
 - ✅ Python (3.x)
 - ✅ Pip (Python package manager)
+- ✅ Ollama (model intraction)
+  
+## 🛠️ Pre-requisites installation
+Install Ollama on your local machine from the [official website](https://ollama.com/). And then pull the Deepseek model:
 
+```bash
+ollama pull deepseek-r1:1.5b
+```
 ---
 
 ## 📦 Installation
@@ -62,6 +70,12 @@
 3. **Install the dependencies:**
    ```bash
    pip install -r requirements.txt
+ ## ▶️ Run
+Run the Streamlit app:
+
+```bash
+streamlit run main.py
+```
 Maintained by [Ashish Kumar](https://github.com/ashishkumar0724 )
 
 [⬆ Back to top](#top)
