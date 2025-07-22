@@ -1,17 +1,22 @@
 <!-- Project Logo -->
 <div align="center">
-  <img src="https://via.placeholder.com/150x150.png?text=RAG_with_ai_scrapper" alt="Project Logo" width="150" />
-  <h1>RAG_with_ai_scrapper</h1>
-  <p><em>Transform Knowledge into Instant, Actionable Insights</em></p>
+
+  <!-- Logo with link -->
+  [![Project Logo](https://via.placeholder.com/150x150.png?text=RAG_with_ai_scrapper)]( https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
+  
+  # RAG_with_ai_scrapper
+  <em>Transform Knowledge into Instant, Actionable Insights</em>
 
   <!-- Badges -->
-  <img src=" https://img.shields.io/github/last-commit/ashishkumar0724/RAG_with_ai_scrapper?style=flat&logo=git&logoColor=white&color=0080ff" alt="Last Commit">
-  <img src=" https://img.shields.io/github/languages/top/ashishkumar0724/RAG_with_ai_scrapper?style=flat&color=0080ff" alt="Top Language">
-  <img src=" https://img.shields.io/github/languages/count/ashishkumar0724/RAG_with_ai_scrapper?style=flat&color=0080ff" alt="Language Count">
-  <br>
-  <img src=" https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white" alt="Streamlit">
-  <img src=" https://img.shields.io/badge/Selenium-43B02A.svg?style=flat&logo=Selenium&logoColor=white" alt="Selenium">
-  <img src=" https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+  [![Last Commit](https://img.shields.io/github/last-commit/ashishkumar0724/RAG_with_ai_scrapper?style=flat&logo=git&logoColor=white&color=0080ff)]( https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
+  [![Top Language](https://img.shields.io/github/languages/top/ashishkumar0724/RAG_with_ai_scrapper?style=flat&color=0080ff)]( https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
+  [![Language Count](https://img.shields.io/github/languages/count/ashishkumar0724/RAG_with_ai_scrapper?style=flat&color=0080ff)]( https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
+  
+  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white)]( https://streamlit.io/ )
+  [![Selenium](https://img.shields.io/badge/Selenium-43B02A.svg?style=flat&logo=Selenium&logoColor=white)]( https://www.selenium.dev/ )
+  [![Python](https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white)]( https://www.python.org/ )
+  [![Ollama](https://img.shields.io/badge/Ollama-green?style=flat&logo=Ollama&logoColor=white)]( https://ollama.com/ )
+
 </div>
 
 ---
@@ -37,14 +42,21 @@
 - [Streamlit]( https://streamlit.io/ ) – For the interactive UI
 - [Selenium](https://www.selenium.dev/ ) – For web scraping
 - [Python](https://www.python.org/ ) – Core programming language
-
+- [Ollama](https://ollama.com/ ) - For open souce LLM model intraction
 ---
 
-## 📦 Prerequisites
+## 📦  Pre-requisites
 
 - ✅ Python (3.x)
 - ✅ Pip (Python package manager)
+- ✅ Ollama (model intraction)
+  
+## 🛠️ Pre-requisites installation
+Install Ollama on your local machine from the [official website](https://ollama.com/). And then pull the Deepseek model:
 
+```bash
+ollama pull deepseek-r1:1.5b
+```
 ---
 
 ## 📦 Installation
@@ -58,7 +70,12 @@
 3. **Install the dependencies:**
    ```bash
    pip install -r requirements.txt
-<div style="text-align: center; font-family: monospace;">
-  <p>Maintained by <a href="https://github.com/ashishkumar0724 " style="color: #00bcd4; text-decoration: none;">Ashish Kumar</a></p>
-  <p><a href="#top" style="color: #9ec1cf; text-decoration: none;">⬆ Back to top</a></p>
-</div>
+ ## ▶️ Run
+Run the Streamlit app:
+
+```bash
+streamlit run main.py
+```
+Maintained by [Ashish Kumar](https://github.com/ashishkumar0724 )
+
+[⬆ Back to top](#top)
