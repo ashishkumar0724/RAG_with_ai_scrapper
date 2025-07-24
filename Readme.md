@@ -23,7 +23,7 @@
 
 ## 🧠 Overview
 
-**RAG_with_ai_scrapper** is an innovative developer application that integrates **web scraping**, **PDF processing**, and **AI-powered question answering** into a streamlined platform. It enables efficient content ingestion, retrieval, and interaction, making it ideal for building intelligent document-based applications.
+**Realyze** is an innovative developer application that integrates **web scraping**, **PDF processing**, and **AI-powered question answering** into a streamlined platform. It enables efficient content ingestion, retrieval, and interaction, making it ideal for building intelligent document-based applications.
 
 ---
 
