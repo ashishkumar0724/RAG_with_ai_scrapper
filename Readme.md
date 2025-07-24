@@ -2,9 +2,9 @@
 <div align="center">
 
   <!-- Logo with link -->
-  [![Project Logo](https://via.placeholder.com/150x150.png?text=RAG_with_ai_scrapper)]( https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
+ [![Project Logo](Screenshots/la.svg)](https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
   
-  # RAG_with_ai_scrapper
+  # 
   <em>Transform Knowledge into Instant, Actionable Insights</em>
 
   <!-- Badges -->
