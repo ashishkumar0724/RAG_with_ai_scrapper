@@ -2,7 +2,7 @@
 <div align="center">
 
   <!-- Logo with link -->
- [![Project Logo](Screenshots/la.svg)](https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
+ [![Project Logo](Screenshots/logo.svg)](https://github.com/ashishkumar0724/RAG_with_ai_scrapper )
   
   # 
   <em>Transform Knowledge into Instant, Actionable Insights</em>
